@@ -1,0 +1,23 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+
+# Python environments and cache
+face_venv/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local settings and logs
+settings.json
+**/settings.local.json
+*.log
+
+# Generated test/runtime files and downloaded model weights
+ocr_result.json
+test_image.png
+yolov8n.pt
